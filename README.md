@@ -1,4 +1,4 @@
-- Sistema de Sorteio de Nomes -
+Sistema de Sorteio de Nomes
   
 Este diretório refere-se a um projeto proposto pelo programa ONE (Oracle Next Education).
 
