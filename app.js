@@ -38,19 +38,22 @@ function atualizarLista() {
 
 //Função para sortear um nome do array nomes.
 function sortearAmigo() {
+    ulResultado.innerHTML = '';
+
     const indiceAleatorio = Math.floor((Math.random() * nomes.length));
+    const nomeSorteado = nomes[indiceAleatorio];
 
     if(nomes.length === 0) {
        alert('Lista vazia');
     }else {
         const li = document.createElement('li');
 
-        ulListaAmigos.innerHTML = '';
-
-        li.innerHTML = `Nome sorteado: ${nomes[indiceAleatorio]}`;
+        li.innerHTML = `Nome sorteado: ${nomeSorteado}`;
 
         ulResultado.appendChild(li);
-    }
 
-    nomes = [];
+        nomes.splice(indiceAleatorio, 1);
+
+        atualizarLista();
+    }
 }
