@@ -1,4 +1,4 @@
-<h1>Sistema de Sorteio de Nomes</h1>
+<h1>Challenge Amigo Secreto</h1>
   
 <h3>Este diretório refere-se a um projeto proposto pelo programa ONE (Oracle Next Education).</h3>
 
